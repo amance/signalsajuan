@@ -1,0 +1,304 @@
+.topbar {
+	height: 50px;
+}
+.navbar li {
+	text-decoration: none;
+	display: inline;
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+	padding-right: 35px
+}
+#signin {
+	color: blue;
+}
+header {
+	text-align: center;
+	display: block;
+	font-family: 'Roboto Slab', serif;
+}
+header h1 {
+	margin-bottom: 0px;
+	font-size: 58px;
+	line-height: 1em;
+	text-align: center
+}
+#second {
+	margin-top: 5px;
+}
+header h3 {
+	margin-top: 5px;
+}
+.products {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 100px;
+}
+.products h2 {
+	color: #006699;
+}
+.products h3 {
+	color: #cc0000;
+}
+.products li {
+	display: inline-block;
+	width: 200px;
+	margin: 50px;
+	padding: 20px;
+	border-radius: 8px;
+	border: 3px solid #E8E8E8;
+}
+#divider {
+	align: center;
+}
+/*I could have used the site-wide selectors "header" and "section"
+(without the quotation marks) to set site-wide styles for those elements,
+but since the earlier part of the page already looks like I want it too,
+I'm going to set styles section by section.*/
+.customers {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	margin-bottom: 50px;
+	margin: 30px auto;
+	width: 870px;
+}
+.customers h2 {
+	font-size: 40px;
+	text-align: center;
+	margin: 20 0 2 0;
+
+
+}
+.meet a:hover {
+	background-position: 0 100%;
+}
+.meet {
+	position: absolute;
+	top: 70x;
+	display: block;
+	left: -150px;
+	margin: 0 0 150 0;
+	padding: 0 0 150 0;
+}
+.meet a {
+	display: block;
+    width: 143px;
+    height: 104px;
+	background: url(http://codifyacademy.com/salespage/img/img-customers.png) no-repeat; 
+    text-indent: -9000em; /*This takes the text associated with 
+    this <a> tag completely out of view of users.*/	
+}
+.meet a:hover {
+	background-position: 0 100%;
+}
+.meet p {
+	font-size: 14px;
+	text-align: center;
+}
+#arrowleft {
+	position: relative;
+	padding-right: 800px;
+}
+img#globe {
+	display: block;
+	float: right;
+}
+.customertext {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	padding-left: 20px
+}
+.manifesto {
+	width: 870px;
+	position: relative;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+#divider2 {
+	text-align: center;
+}
+.manifesto h2 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+}
+.manifesto h3 {
+	font-family: 'Roboto', sans-serif;
+	color: #9D2D2D;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 10px;
+}
+.manifesto p {
+	font-family: 'Roboto', sans-serif;
+	text-align: left;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.columnone h2 , .columntwo h2 {
+	color: #BDBDBD;
+	text-align: left;
+	float: left;
+	margin: 10px 45px 0 0;
+	border: 2px solid white;
+	padding-bottom: 35px;
+}
+.columnone, .columntwo {
+	float: left;
+	width: 380px;
+}
+.columnone {
+	margin-right: 40px;
+}
+.rework {
+	width: 870px;
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+.rework h2 {
+	font-size: 40px;
+	font-family: 'Roboto Slab', serif;
+}
+.arrowcrumple {
+	display: block;
+	position: relative;
+	right: -480px;
+	bottom: 150px;
+}
+#book {
+	float: left;
+	margin: 0;
+	display: block;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+.quotes {
+	margin: 0;
+	display: block;
+	font-size: 1.5em;
+	width: 800px;
+	padding-bottom: 100px;
+
+}
+.attributed {
+	font-size: .75em;
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	margin: 0;
+}
+.divider4 {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	margin-bottom: 50px;
+	margin: 30px auto;
+	width: 870px;
+}
+.offers {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	margin-bottom: 50px;
+	margin: 30px auto;
+	width: 870px;
+	text-align: center;
+}
+.offers h2 {
+	font-size: 40px
+}
+.offersone, .offerstwo {
+	float: left;
+	width: 310px;
+	text-align: center;
+	padding-right: 35px;
+	padding-left: 35px;
+}
+.offersone {
+	margin-right: 39px;
+
+}
+.offerstwo {
+	margin-right: 0;
+}
+.offers {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	width: 870px;
+	margin-bottom: 50px;
+	margin: 30px auto;
+}
+.offers li { /*removes bullet points from list.*/
+	list-style-type: none;
+}
+.offersone h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #B21B1B;	
+	border-bottom: 1px solid;
+	border-color: silver;
+	margin-bottom: 0px;
+	margin: 30px;
+
+}
+.offerstwo h4 {
+	font-family: 'Roboto', sans-serif;
+	color: #B21B1B;	
+	border-bottom: 1px solid;
+	border-color: silver;
+	margin-bottom: 5px;
+	margin: 30px auto;
+}
+.offers li small {
+	font-family: 'Roboto', sans-serif;
+}
+.offers small {
+	margin-top: 5px; 
+	color: gray;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+.offers h3 {
+	margin-bottom: 5px;
+}
+.divider5 {
+	display: block;
+	font-family: 'Roboto Slab', serif;
+	position: relative;
+	margin-bottom: 50px;
+	margin: 30px auto;
+	width: 870px;
+	text-align: center;
+}
+.footer {
+	font-family: 'Roboto', sans-serif;
+}
+.footer h4 {
+	color: #B21B1B;	
+}
+.footer p {
+	font-family: 'Roboto', sans-serif;
+	color: blue;
+	text-decoration: none;	
+}
+.footer a {
+	text-decoration: none;
+	color: blue;
+}
+.footer li {
+	display: inline;
+	list-style-type: none;
+}
+.blue a { /*Use the a selector with the property to bring the text back to
+	the intended color for the text in a linked element, when the user is not
+	overing.*/
+	color: blue;
+}
+.gray a {
+	color: gray;
+}
+.footer a:hover {
+	color: #69C;
+}
